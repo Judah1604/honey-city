@@ -1,9 +1,7 @@
-"use client";
-import { usePathname } from "next/navigation";
-import "../node_modules/bootstrap/js/src/dropdown";
+import { useLocation } from "react-router-dom";
 
 function Nav() {
-    const pathname = usePathname();
+    const { pathname } = useLocation();
 
     return (
         <div className="nav">
@@ -21,7 +19,9 @@ function Nav() {
                 <a
                     href="/about"
                     className={
-                        pathname.includes("/about")
+                        pathname === "/about/who-we-are"
+                            ? "nav-link dropdown-toggle active"
+                            : pathname === "/about/founders"
                             ? "nav-link dropdown-toggle active"
                             : "nav-link dropdown-toggle"
                     }

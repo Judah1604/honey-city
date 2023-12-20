@@ -1,6 +1,5 @@
-'use client'
 import { useState } from "react";
-import "../app/Styles/components/static.css";
+import "../Styles/components/static.css";
 import { useScroll } from "framer-motion";
 
 function Footer() {

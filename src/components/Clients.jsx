@@ -1,6 +1,3 @@
-'use client'
-
-import Image from "next/image";
 import { motion } from "framer-motion";
 
 function Clients() {
@@ -15,13 +12,7 @@ function Clients() {
                     transition={{ type: "tween", delay: 0.2 }}
                     viewport={{ once: "true" }}
                 >
-                    <Image
-                        src={"/images-fake/chairman.png"}
-                        alt="Client"
-                        width={500}
-                        height={500}
-                        layout="responsive"
-                    />
+                    <img src="/images-fake/chairman.png" alt="Client" />
                 </motion.div>
                 <motion.div
                     className="img col-md-3"
@@ -30,13 +21,7 @@ function Clients() {
                     transition={{ type: "tween", delay: 0.5 }}
                     viewport={{ once: "true" }}
                 >
-                    <Image
-                        src={"/images-fake/chairman.png"}
-                        alt="Client"
-                        width={500}
-                        height={500}
-                        layout="responsive"
-                    />
+                    <img src="/images-fake/chairman.png" alt="Client" />
                 </motion.div>
                 <motion.div
                     className="img col-md-3"
@@ -45,13 +30,7 @@ function Clients() {
                     transition={{ type: "tween", delay: 0.8 }}
                     viewport={{ once: "true" }}
                 >
-                    <Image
-                        src={"/images-fake/chairman.png"}
-                        alt="Client"
-                        width={500}
-                        height={500}
-                        layout="responsive"
-                    />
+                    <img src="/images-fake/chairman.png" alt="Client" />
                 </motion.div>
             </div>
         </div>
