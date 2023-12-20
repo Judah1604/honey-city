@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import './../../node_modules/bootstrap/js/dist/dropdown'
 
 function Nav() {
     const { pathname } = useLocation();
@@ -17,7 +18,7 @@ function Nav() {
             </div>
             <div className="nav-item dropdown">
                 <a
-                    href="/about"
+                    href="#"
                     className={
                         pathname === "/about/who-we-are"
                             ? "nav-link dropdown-toggle active"
@@ -26,7 +27,7 @@ function Nav() {
                             : "nav-link dropdown-toggle"
                     }
                     data-bs-toggle="dropdown"
-                >
+                a>
                     About
                     <i class="fa-solid fa-chevron-down"></i>
                 </a>
