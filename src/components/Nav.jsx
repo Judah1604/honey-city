@@ -1,5 +1,4 @@
 import { useLocation } from "react-router-dom";
-import './../../node_modules/bootstrap/js/dist/dropdown'
 
 function Nav() {
     const { pathname } = useLocation();

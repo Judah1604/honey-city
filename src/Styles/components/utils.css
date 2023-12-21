@@ -56,13 +56,11 @@
   border-radius: 7px;
   justify-content: center;
   overflow: hidden;
-  margin-top: -50px;
+  gap: 40px;
 }
 .values .value-card {
   text-align: center;
-  padding: 40px 30px;
-  box-shadow: 0 10px 40px 1px #fe7505;
-  margin: 40px;
+  padding: 30px;
   border-radius: 10px;
   background-color: #fe7505;
   color: #ededed;

@@ -4,7 +4,7 @@ import "../Styles/components/utils.css";
 function Values() {
     return (
         <>
-            <div className="container row my-2 values">
+            <div className="container row mb-4 values">
                 <motion.div
                     className="value-card col-md-4"
                     initial={{ y: 250, opacity: 0 }}

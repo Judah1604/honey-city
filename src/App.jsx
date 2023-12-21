@@ -1,15 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import Values from "./components/Values";
-import Estate from "./components/Estate";
-import Clients from "./components/Clients";
 import Founders from "./components/pages/Founders";
 import Who_we_are from "./components/pages/Who-we-are";
 import Contact from "./components/pages/Contact";
 import Services from "./components/pages/Services";
 import BookInspection from "./components/pages/BookInspection";
+import HomePage from "./components/pages/HomePage";
 
 function App() {
     return (
@@ -30,17 +27,6 @@ function App() {
                 <Footer />
             </Router>
         </>
-    );
-}
-
-function HomePage() {
-    return (
-        <div>
-            <HeroSection />
-            <Values />
-            <Estate />
-            <Clients />
-        </div>
     );
 }
 
