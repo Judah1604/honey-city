@@ -4,18 +4,8 @@
   overflow-x: hidden;
 }
 
-html {
-  background-color: #fe7505 !important;
-  display: grid;
-  place-items: center;
-}
-
 body {
   background-color: #eeeeee;
-  width: 98%;
-  height: 96vh;
-  margin-top: 15px;
-  border-radius: 15px;
   font-family: "Onest", sans-serif !important;
 }
 
