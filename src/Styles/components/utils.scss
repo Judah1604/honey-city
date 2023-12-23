@@ -126,6 +126,11 @@ $border-radius: 7px;
             font-size: 2em;
             margin-bottom: 10px;
         }
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
     }
 
 }
@@ -223,6 +228,7 @@ $border-radius: 7px;
     img {
         border-radius: $border-radius;
         margin-top: 20px;
+        width: 100%;
     }
 
     .text {
@@ -263,6 +269,7 @@ $border-radius: 7px;
 
         img {
             border-radius: $border-radius;
+            width: 100%;
         }
     }
 

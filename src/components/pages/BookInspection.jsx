@@ -105,12 +105,7 @@ function BookInspection() {
                         Solar street light
                     </div>
                     <div className="feature">
-                        <Image
-                            src="/icons/cctv.svg"
-                            alt="cctv"
-                            width={60}
-                            height={60}
-                        />
+                        <img src="/icons/cctv.svg" alt="cctv" />
                         CCTV
                     </div>
                 </div>

@@ -105,6 +105,10 @@
   font-size: 2em;
   margin-bottom: 10px;
 }
+.features .feature img {
+  width: 60px;
+  height: 60px;
+}
 
 .about-us {
   background-color: #111;
@@ -190,6 +194,7 @@
 .who-we-are img {
   border-radius: 7px;
   margin-top: 20px;
+  width: 100%;
 }
 .who-we-are .text {
   margin: 20px;
@@ -223,6 +228,7 @@
 }
 .founders .founder img {
   border-radius: 7px;
+  width: 100%;
 }
 .founders .reverse {
   flex-direction: row-reverse;
