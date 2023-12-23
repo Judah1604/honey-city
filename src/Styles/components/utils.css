@@ -122,11 +122,8 @@
 }
 
 .services {
-  gap: 20px;
+  gap: 10px;
   overflow: hidden;
-}
-.services .card {
-  width: 32%;
 }
 
 .estate {
