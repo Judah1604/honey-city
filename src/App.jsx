@@ -15,8 +15,8 @@ function App() {
                 <Navbar />
                 <Routes>
                     <Route path="/" Component={HomePage} />
-                    <Route path="/founders" Component={Founders} />
-                    <Route path="/who-we-are" Component={Who_we_are} />
+                    <Route path="/about/founders" Component={Founders} />
+                    <Route path="/about/who-we-are" Component={Who_we_are} />
                     <Route path="/contact" Component={Contact} />
                     <Route path="/services" Component={Services} />
                     <Route
