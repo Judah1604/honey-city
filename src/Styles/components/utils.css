@@ -99,6 +99,7 @@
 .features .feature {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .features .feature i {
   color: #fe7505;

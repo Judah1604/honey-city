@@ -83,28 +83,28 @@ function BookInspection() {
             </form>
             <div className="container features my-3">
                 <h1>Features</h1>
-                <div className="content">
-                    <div className="feature">
+                <div className="content row">
+                    <div className="feature col-md-2">
                         <i class="fa-solid fa-plug-circle-bolt"></i>
                         24 hours power supply
                     </div>
-                    <div className="feature">
+                    <div className="feature col-md-2">
                         <i class="fa-solid fa-road"></i>
                         Good road network
                     </div>
-                    <div className="feature">
+                    <div className="feature col-md-2">
                         <i class="fa-solid fa-road-barrier"></i>
                         External Perimeter fence
                     </div>
-                    <div className="feature">
+                    <div className="feature col-md-2">
                         <i class="fa-solid fa-arrow-up-from-water-pump"></i>
                         Good Drainage System
                     </div>
-                    <div className="feature">
+                    <div className="feature col-md-2">
                         <i class="fa-solid fa-solar-panel"></i>
                         Solar street light
                     </div>
-                    <div className="feature">
+                    <div className="feature col-md-2">
                         <img src="/icons/cctv.svg" alt="cctv" />
                         CCTV
                     </div>
@@ -120,10 +120,12 @@ function BookInspection() {
                             <img
                                 src="/images/estate (1).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                             <img
                                 src="/images/estate (2).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                         </div>
                     </div>
@@ -132,10 +134,12 @@ function BookInspection() {
                             <img
                                 src="/images/estate (3).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                             <img
                                 src="/images/estate (4).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                         </div>
                     </div>
@@ -144,10 +148,12 @@ function BookInspection() {
                             <img
                                 src="/images/estate (5).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                             <img
                                 src="/images/estate (6).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                         </div>
                     </div>
@@ -156,10 +162,12 @@ function BookInspection() {
                             <img
                                 src="/images/estate (7).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                             <img
                                 src="/images/estate (8).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                         </div>
                     </div>
@@ -168,10 +176,12 @@ function BookInspection() {
                             <img
                                 src="/images/estate (9).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                             <img
                                 src="/images/estate (10).jpeg"
                                 alt="Honey City Estate"
+                                className="col-md-5"
                             />
                         </div>
                     </div>

@@ -7,7 +7,7 @@ function Values() {
             <div className="container row mb-4 values">
                 <motion.div
                     className="value-card col-md-4"
-                    initial={{ y: 250, opacity: 0 }}
+                    initial={{ y: 220, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.2, type: "tween" }}
                     viewport={{ once: "true" }}
@@ -22,7 +22,7 @@ function Values() {
                 </motion.div>
                 <motion.div
                     className="value-card col-md-4"
-                    initial={{ y: 250, opacity: 0 }}
+                    initial={{ y: 220, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.5, type: "tween" }}
                     viewport={{ once: "true" }}

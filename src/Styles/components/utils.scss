@@ -120,6 +120,7 @@ $border-radius: 7px;
     .feature {
         display: flex;
         flex-direction: column;
+        align-items: center;
 
         i {
             color: #fe7505;

@@ -12,7 +12,7 @@ function Clients() {
                     transition={{ type: "tween", delay: 0.2 }}
                     viewport={{ once: "true" }}
                 >
-                    <img src="/images-fake/chairman.png" alt="Client" />
+                    <img src="/images/chairman.png" alt="Client" />
                 </motion.div>
                 <motion.div
                     className="img col-md-3"
@@ -21,7 +21,7 @@ function Clients() {
                     transition={{ type: "tween", delay: 0.5 }}
                     viewport={{ once: "true" }}
                 >
-                    <img src="/images-fake/chairman.png" alt="Client" />
+                    <img src="/images/chairman.png" alt="Client" />
                 </motion.div>
                 <motion.div
                     className="img col-md-3"
@@ -30,7 +30,7 @@ function Clients() {
                     transition={{ type: "tween", delay: 0.8 }}
                     viewport={{ once: "true" }}
                 >
-                    <img src="/images-fake/chairman.png" alt="Client" />
+                    <img src="/images/chairman.png" alt="Client" />
                 </motion.div>
             </div>
         </div>
