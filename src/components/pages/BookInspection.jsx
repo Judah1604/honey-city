@@ -9,7 +9,14 @@ function BookInspection() {
                 action="#"
                 className="container col-md-8"
                 name="Book an Inspection Form"
+                method="POST"
+                netlify
             >
+                <input
+                    type="hidden"
+                    name="form-name"
+                    value="Book an Inspection Form"
+                />
                 <div className="p-2 form-group">
                     <label htmlFor="name">
                         <i class="fa-solid fa-user-large"></i>
@@ -18,6 +25,7 @@ function BookInspection() {
                         type="text"
                         className="form-control"
                         id="name"
+                        name="Full Name"
                         placeholder="Full Name"
                     />
                 </div>
@@ -29,6 +37,7 @@ function BookInspection() {
                         type="email"
                         className="form-control"
                         id="email"
+                        name="Email"
                         placeholder="Email"
                     />
                 </div>
@@ -40,6 +49,7 @@ function BookInspection() {
                         type="number"
                         className="form-control"
                         id="phone-number"
+                        name="Phone Number"
                         placeholder="Phone Number"
                     />
                 </div>
@@ -67,7 +77,11 @@ function BookInspection() {
                 </div>
                 <div className="p-2 form-group open">
                     <label htmlFor="estate">Estate to be inspected</label>
-                    <select name="estate" id="estate" className="form-control">
+                    <select
+                        name="Estate to be inspected"
+                        id="estate"
+                        className="form-control"
+                    >
                         <option value=""></option>
                         <option value="Honey City Estate 1">
                             Honey City Estate 1

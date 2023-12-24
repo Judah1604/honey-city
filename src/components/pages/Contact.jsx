@@ -17,7 +17,14 @@ function Contact() {
                     action="#"
                     className="container col-md-8"
                     name="Contact Form"
+                    method="POST"
+                    netlify
                 >
+                    <input
+                        type="hidden"
+                        name="form-name"
+                        value="Contact Form"
+                    />
                     <div className="p-2 form-group">
                         <label htmlFor="name">
                             <i class="fa-solid fa-user-large"></i>
@@ -26,6 +33,7 @@ function Contact() {
                             type="text"
                             className="form-control"
                             id="name"
+                            name="Name"
                             placeholder="Name"
                         />
                     </div>
@@ -37,6 +45,7 @@ function Contact() {
                             type="email"
                             className="form-control"
                             id="email"
+                            name="Email"
                             placeholder="Email"
                         />
                     </div>
@@ -48,6 +57,7 @@ function Contact() {
                             type="number"
                             className="form-control"
                             id="phone-number"
+                            name="Phone Number"
                             placeholder="Phone Number"
                         />
                     </div>
@@ -55,6 +65,7 @@ function Contact() {
                         <textarea
                             className="form-control"
                             id="message"
+                            name="Message"
                             rows="3"
                             placeholder="Message"
                         ></textarea>
