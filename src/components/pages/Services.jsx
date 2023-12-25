@@ -9,40 +9,36 @@ function Services() {
                 <ServiceCard
                     image={"/images/exterior.jpg"}
                     title={"Real Estate Investment"}
-                    text="We can help you with: Acquiring Lands & Housing Properties ,
-                        Sales of Lands & Housing Properties, Real Estate Trading, L
-                        etting/Leasing, Property Investment Advice/Consultancy, Property/F
-                        acility Management. We are currently undertaking the buying, selling, 
+                    text="We can help you with: Acquiring Lands & Housing Properties,
+                        Sales of Lands & Housing Properties, Real Estate Trading, 
+                        Letting/Leasing, Property Investment Advice/Consultancy, Property/Facility Management. We are currently undertaking the buying, selling, 
                         renting, or leasing of several lands and buildings, and we believe we 
                         are the best option for you."
                 />
                 <ServiceCard
                     image={"/images/exterior.jpg"}
                     title={"Real Estate Investment"}
-                    text="We can help you with: Acquiring Lands & Housing Properties ,
-                        Sales of Lands & Housing Properties, Real Estate Trading, L
-                        etting/Leasing, Property Investment Advice/Consultancy, Property/F
-                        acility Management. We are currently undertaking the buying, selling, 
+                    text="We can help you with: Acquiring Lands & Housing Properties,
+                        Sales of Lands & Housing Properties, Real Estate Trading, 
+                        Letting/Leasing, Property Investment Advice/Consultancy, Property/Facility Management. We are currently undertaking the buying, selling, 
                         renting, or leasing of several lands and buildings, and we believe we 
                         are the best option for you."
                 />
                 <ServiceCard
                     image={"/images/exterior.jpg"}
                     title={"Real Estate Investment"}
-                    text="We can help you with: Acquiring Lands & Housing Properties ,
-                        Sales of Lands & Housing Properties, Real Estate Trading, L
-                        etting/Leasing, Property Investment Advice/Consultancy, Property/F
-                        acility Management. We are currently undertaking the buying, selling, 
+                    text="We can help you with: Acquiring Lands & Housing Properties,
+                        Sales of Lands & Housing Properties, Real Estate Trading, 
+                        Letting/Leasing, Property Investment Advice/Consultancy, Property/Facility Management. We are currently undertaking the buying, selling, 
                         renting, or leasing of several lands and buildings, and we believe we 
                         are the best option for you."
                 />
                 <ServiceCard
                     image={"/images/exterior.jpg"}
                     title={"Real Estate Investment"}
-                    text="We can help you with: Acquiring Lands & Housing Properties ,
-                        Sales of Lands & Housing Properties, Real Estate Trading, L
-                        etting/Leasing, Property Investment Advice/Consultancy, Property/F
-                        acility Management. We are currently undertaking the buying, selling, 
+                    text="We can help you with: Acquiring Lands & Housing Properties,
+                        Sales of Lands & Housing Properties, Real Estate Trading, 
+                        Letting/Leasing, Property Investment Advice/Consultancy, Property/Facility Management. We are currently undertaking the buying, selling, 
                         renting, or leasing of several lands and buildings, and we believe we 
                         are the best option for you."
                 />
