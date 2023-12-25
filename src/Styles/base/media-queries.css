@@ -19,6 +19,10 @@
   .poster > * {
     width: 95%;
   }
+  .services .card {
+    width: 99%;
+    margin: 0 auto !important;
+  }
 }
 @media screen and (max-width: 576px) {
   .navbar .btn {
@@ -37,7 +41,8 @@
   .hero-section .text {
     padding: 50px !important;
   }
-  .value-card, .clients .img {
+  .value-card,
+  .clients .img {
     width: 90%;
   }
   .estate .content {
