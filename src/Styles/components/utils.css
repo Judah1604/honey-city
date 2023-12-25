@@ -123,8 +123,12 @@
 }
 
 .services {
-  gap: 10px;
   overflow: hidden;
+  padding: 20px;
+  gap: 20px;
+}
+.services .card {
+  margin: 0 !important;
 }
 
 .estate {
